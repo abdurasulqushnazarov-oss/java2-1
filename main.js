@@ -29,3 +29,37 @@
 //==============================================================================
 
 //4-masala
+
+// let num1 = 24;
+// for (count = 1; count <= num1; count++) {
+//   if (num1 % count === 0) {
+//     console.log(count);
+//   }
+// }
+
+//============================================================================
+
+//5-masala
+
+// let son = +prompt("son kiriting");
+// let count = 0;
+// for (tub = 1; tub <= son; tub++) {
+//   if (son % tub === 0) {
+//     count++;
+//   }
+// }
+// if (count === 2) {
+//   console.log("bu tub son");
+// } else {
+//   console.log("bu tub son emas");
+// }
+
+//========================================================================
+
+//6-masala
+
+for (num = 1; num <= 9; num++) {
+  for (count = 1; count <= 10; count++) {
+    console.log(num + "x" + count + "=" + num * count);
+  }
+}
